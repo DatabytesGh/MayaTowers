@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-outdoor">
+        <li class="text">Outdoor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-reception-1">
+        <li class="text">Reception 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-reception1-5">
+        <li class="text">Reception1-5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-floor1-staircase">
+        <li class="text">Floor1 staircase</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-floor-1-hallway">
+        <li class="text">Floor 1 Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-reception2">
+        <li class="text">Reception2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-gym-hallway2">
+        <li class="text">Gym Hallway2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-gym">
+        <li class="text">Gym</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-gym-inner-washroom">
+        <li class="text">Gym inner washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-gym-outer-washroom-">
+        <li class="text">Gym outer Washroom </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-floor-2-staircase">
+        <li class="text">floor 2 staircase</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-floor-2-hall-way">
+        <li class="text">floor 2 hall way</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-floor-2-hall-way-2">
+        <li class="text">floor 2 hall way 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-floor-2-hallway-inner-2">
+        <li class="text">floor 2 hallway inner 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-floor-2-hall-way-inner">
+        <li class="text">floor 2 hall way inner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-room-201">
+        <li class="text">Room 201</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-201-washroom">
+        <li class="text">201 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-room-202-">
+        <li class="text">Room 202 </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-202-washroom">
+        <li class="text">202 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-room-203">
+        <li class="text">Room 203</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-203-washroom">
+        <li class="text">203 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-room-203-204-hallway">
+        <li class="text">Room 203 204 hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-room-204">
+        <li class="text">Room 204</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-204-washroom">
+        <li class="text">204 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-room-205">
+        <li class="text">Room 205</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-205-washroom-">
+        <li class="text">205 washroom </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-room-206">
+        <li class="text">Room 206</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-206-wasroom">
+        <li class="text">206 wasroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-room-207-">
+        <li class="text">Room 207 </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-207-washroom">
+        <li class="text">207 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-floor-3-staircase">
+        <li class="text">floor 3 staircase</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-3rd-floor-hallway">
+        <li class="text">3rd floor hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-3rd-floor-hallway-1">
+        <li class="text">3rd floor hallway 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-301-302-doorsjpg">
+        <li class="text">301 302 doorsjpg</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-3rd-floor-inner-hallway">
+        <li class="text">3rd floor inner hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-room-303-and-304-doors">
+        <li class="text">Room 303 and 304 doors</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-room-301">
+        <li class="text">Room 301</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-301-washroom">
+        <li class="text">301 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-room-302">
+        <li class="text">Room 302</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-302-washroom">
+        <li class="text">302 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-room-303">
+        <li class="text">Room 303</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-303-washroom">
+        <li class="text">303 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-room-304">
+        <li class="text">Room 304</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-304-washroom">
+        <li class="text">304 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-room-305">
+        <li class="text">Room 305</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-305-washroom">
+        <li class="text">305 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-room-306">
+        <li class="text">Room 306</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-306-washroom">
+        <li class="text">306 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-room-307">
+        <li class="text">Room 307</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-307-washroom-">
+        <li class="text">307 washroom </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-room-308">
+        <li class="text">Room 308</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-308-washroom">
+        <li class="text">308 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-501-502-hallway">
+        <li class="text">501 502 hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-503-504-hallway">
+        <li class="text">503 504 hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-5th-floor-hallway-">
+        <li class="text">5th floor hallway </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-506-507-hallway">
+        <li class="text">506 507 hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-room-501">
+        <li class="text">Room 501</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-501-washroom">
+        <li class="text">501 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-room-502">
+        <li class="text">Room 502</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-502-washroom">
+        <li class="text">502 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-room-503">
+        <li class="text">Room 503</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-503-washroom">
+        <li class="text">503 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-room-504">
+        <li class="text">Room 504</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-504-washroom">
+        <li class="text">504 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-room-505">
+        <li class="text">Room 505</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-505-washroom">
+        <li class="text">505 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-room-506">
+        <li class="text">Room 506</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-506-washroom">
+        <li class="text">506 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-room-507">
+        <li class="text">Room 507</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-507-washroom">
+        <li class="text">507 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-room-508">
+        <li class="text">Room 508</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-508-washroom">
+        <li class="text">508 washroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-floor-2-elevator">
+        <li class="text">floor 2 elevator</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
