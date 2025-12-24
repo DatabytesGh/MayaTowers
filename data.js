@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-outdoor",
-      "name": "Outdoor",
+      "id": "0-maya-towers",
+      "name": "Maya Towers",
       "levels": [
         {
           "tileSize": 256,
@@ -37,14 +37,14 @@ var APP_DATA = {
           "yaw": -0.30265538607428866,
           "pitch": 0.02273548236209777,
           "rotation": 0,
-          "target": "1-reception-1"
+          "target": "1-reception-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1-reception-1",
-      "name": "Reception 1",
+      "id": "1-reception-",
+      "name": "Reception ",
       "levels": [
         {
           "tileSize": 256,
@@ -79,7 +79,7 @@ var APP_DATA = {
           "yaw": 2.717596203533102,
           "pitch": -0.041358715286470726,
           "rotation": 0,
-          "target": "1-reception-1"
+          "target": "1-reception-"
         },
         {
           "yaw": 0.7205580582173887,
@@ -91,14 +91,14 @@ var APP_DATA = {
           "yaw": -0.3773808986178864,
           "pitch": 0.26290817911986153,
           "rotation": 0,
-          "target": "2-reception1-5"
+          "target": "2-reception"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-reception1-5",
-      "name": "Reception1-5",
+      "id": "2-reception",
+      "name": "Reception",
       "levels": [
         {
           "tileSize": 256,
@@ -170,7 +170,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.6638467951699099,
+          "pitch": 0.13424629082800443,
+          "rotation": 0,
+          "target": "4-floor-1-hallway"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -210,7 +217,7 @@ var APP_DATA = {
           "yaw": -1.4201233287508117,
           "pitch": 0.017849595849689592,
           "rotation": 0,
-          "target": "5-reception2"
+          "target": "5-reception"
         },
         {
           "yaw": 0.04035379876867928,
@@ -223,6 +230,12 @@ var APP_DATA = {
           "pitch": -0.026977237428315703,
           "rotation": 0,
           "target": "10-floor-2-staircase"
+        },
+        {
+          "yaw": 2.097542470053874,
+          "pitch": 0.14637083451594712,
+          "rotation": 0.7853981633974483,
+          "target": "73-pool"
         }
       ],
       "infoHotspots": [
@@ -235,8 +248,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "5-reception2",
-      "name": "Reception2",
+      "id": "5-reception",
+      "name": "Reception",
       "levels": [
         {
           "tileSize": 256,
@@ -461,7 +474,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.8784543166869874,
+          "pitch": 0.14785453406619808,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -677,6 +697,12 @@ var APP_DATA = {
           "pitch": 0.020839388472555953,
           "rotation": 0,
           "target": "19-room-203"
+        },
+        {
+          "yaw": 1.3803199396143242,
+          "pitch": -0.14398555259974088,
+          "rotation": 0,
+          "target": "10-floor-2-staircase"
         }
       ],
       "infoHotspots": []
@@ -1437,6 +1463,12 @@ var APP_DATA = {
           "pitch": -0.04484045017513516,
           "rotation": 0,
           "target": "44-room-305"
+        },
+        {
+          "yaw": 0.051370701217880566,
+          "pitch": -0.050757077270006334,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
         }
       ],
       "infoHotspots": []
@@ -2392,8 +2424,8 @@ var APP_DATA = {
       ],
       "faceSize": 2976,
       "initialViewParameters": {
-        "yaw": -0.6600158108878045,
-        "pitch": -0.11702551255299554,
+        "yaw": -0.2849667267682783,
+        "pitch": 0.018172352465731123,
         "fov": 1.3365071038314758
       },
       "linkHotspots": [
@@ -3219,6 +3251,54 @@ var APP_DATA = {
         "fov": 1.5707963267948966
       },
       "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "73-pool",
+      "name": "pool",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 2976,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.2144231223535265,
+          "pitch": -0.0986516333271723,
+          "rotation": 0,
+          "target": "4-floor-1-hallway"
+        },
+        {
+          "yaw": 2.167569542755725,
+          "pitch": 0.1860906186199287,
+          "rotation": 0,
+          "target": "0-maya-towers"
+        }
+      ],
       "infoHotspots": []
     }
   ],
