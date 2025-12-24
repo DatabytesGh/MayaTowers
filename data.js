@@ -38,6 +38,12 @@ var APP_DATA = {
           "pitch": 0.02273548236209777,
           "rotation": 0,
           "target": "1-reception-"
+        },
+        {
+          "yaw": 0.4212729189579001,
+          "pitch": -0.03781367831961546,
+          "rotation": 0,
+          "target": "73-pool"
         }
       ],
       "infoHotspots": []
@@ -128,7 +134,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.6051882524819696,
+          "pitch": 0.28275598841314675,
+          "rotation": 0,
+          "target": "1-reception-"
+        }
+      ],
       "infoHotspots": [
         {
           "yaw": 1.1376062978166441,
@@ -176,6 +189,12 @@ var APP_DATA = {
           "pitch": 0.13424629082800443,
           "rotation": 0,
           "target": "4-floor-1-hallway"
+        },
+        {
+          "yaw": -0.2448631517000237,
+          "pitch": 0.5584195158125453,
+          "rotation": 0,
+          "target": "1-reception-"
         }
       ],
       "infoHotspots": []
@@ -279,7 +298,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.1677100124484063,
+          "pitch": 0.04124989613315577,
+          "rotation": 0,
+          "target": "6-gym-hallway2"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -326,6 +352,12 @@ var APP_DATA = {
           "pitch": -0.11403204825290736,
           "rotation": 0,
           "target": "9-gym-outer-washroom-"
+        },
+        {
+          "yaw": -0.6202510850940914,
+          "pitch": 0.23647982320764527,
+          "rotation": 0,
+          "target": "4-floor-1-hallway"
         }
       ],
       "infoHotspots": []
@@ -368,6 +400,12 @@ var APP_DATA = {
           "pitch": 0.0021186229464031925,
           "rotation": 0,
           "target": "8-gym-inner-washroom"
+        },
+        {
+          "yaw": 0.9046567612189822,
+          "pitch": 0.0840712568779427,
+          "rotation": 0,
+          "target": "6-gym-hallway2"
         }
       ],
       "infoHotspots": []
@@ -404,7 +442,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.1139458735589844,
+          "pitch": 0.6217203618041474,
+          "rotation": 0,
+          "target": "7-gym"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -439,7 +484,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.07302467344701924,
+          "pitch": -0.09529244043611484,
+          "rotation": 0,
+          "target": "6-gym-hallway2"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -480,6 +532,18 @@ var APP_DATA = {
           "pitch": 0.14785453406619808,
           "rotation": 0,
           "target": "11-floor-2-hall-way"
+        },
+        {
+          "yaw": -2.748043635792463,
+          "pitch": 0.2998231626781518,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
+        },
+        {
+          "yaw": 0.19335811601460406,
+          "pitch": 0.7376982420527831,
+          "rotation": 0,
+          "target": "4-floor-1-hallway"
         }
       ],
       "infoHotspots": []
@@ -540,6 +604,18 @@ var APP_DATA = {
           "pitch": 0.13805935062459795,
           "rotation": 0,
           "target": "21-room-203-204-hallway"
+        },
+        {
+          "yaw": -0.2723654438945129,
+          "pitch": 0.07765704596558365,
+          "rotation": 0,
+          "target": "24-room-205"
+        },
+        {
+          "yaw": -0.814663136956236,
+          "pitch": 0.2576315517285934,
+          "rotation": 0,
+          "target": "10-floor-2-staircase"
         }
       ],
       "infoHotspots": [
@@ -595,6 +671,12 @@ var APP_DATA = {
           "pitch": 0.05336154648784053,
           "rotation": 0,
           "target": "28-room-207-"
+        },
+        {
+          "yaw": -2.0546757930466235,
+          "pitch": 0.226812336077991,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
         }
       ],
       "infoHotspots": []
@@ -643,6 +725,12 @@ var APP_DATA = {
           "pitch": -0.05949530249416313,
           "rotation": 0,
           "target": "15-room-201"
+        },
+        {
+          "yaw": 1.4388902558713887,
+          "pitch": 0.4848362967532349,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
         }
       ],
       "infoHotspots": []
@@ -703,6 +791,24 @@ var APP_DATA = {
           "pitch": -0.14398555259974088,
           "rotation": 0,
           "target": "10-floor-2-staircase"
+        },
+        {
+          "yaw": -1.535302434199565,
+          "pitch": 0.3762861681362093,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
+        },
+        {
+          "yaw": -2.570357659151396,
+          "pitch": 0.3286031686414912,
+          "rotation": 0,
+          "target": "21-room-203-204-hallway"
+        },
+        {
+          "yaw": 1.8622150498343792,
+          "pitch": 0.4522430448012713,
+          "rotation": 0,
+          "target": "4-floor-1-hallway"
         }
       ],
       "infoHotspots": []
@@ -751,6 +857,12 @@ var APP_DATA = {
           "pitch": 0.010187108907384612,
           "rotation": 0,
           "target": "17-room-202-"
+        },
+        {
+          "yaw": 1.4166983795122938,
+          "pitch": 0.12221535826676977,
+          "rotation": 0,
+          "target": "14-floor-2-hall-way-inner"
         }
       ],
       "infoHotspots": []
@@ -841,6 +953,12 @@ var APP_DATA = {
           "pitch": 0.0816520156150542,
           "rotation": 0,
           "target": "18-202-washroom"
+        },
+        {
+          "yaw": -1.3225579321708292,
+          "pitch": 0.304466446556626,
+          "rotation": 0,
+          "target": "14-floor-2-hall-way-inner"
         }
       ],
       "infoHotspots": []
@@ -967,7 +1085,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.328849513751635,
+          "pitch": 0.5187263768927188,
+          "rotation": 0,
+          "target": "19-room-203"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1014,6 +1139,18 @@ var APP_DATA = {
           "pitch": 0.11200189828478102,
           "rotation": 0,
           "target": "22-room-204"
+        },
+        {
+          "yaw": -0.3083204074168666,
+          "pitch": 0.4779568479612859,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
+        },
+        {
+          "yaw": 1.0539190515918389,
+          "pitch": -0.0404747180261662,
+          "rotation": 0,
+          "target": "30-floor-3-staircase"
         }
       ],
       "infoHotspots": []
@@ -1098,7 +1235,14 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 1.6875084327100165,
+          "pitch": 0.09251073923157804,
+          "rotation": 0,
+          "target": "22-room-204"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1229,6 +1373,12 @@ var APP_DATA = {
           "pitch": 0.1515591225818902,
           "rotation": 0,
           "target": "27-206-wasroom"
+        },
+        {
+          "yaw": 2.9273751148683456,
+          "pitch": 0.3057358675953168,
+          "rotation": 0,
+          "target": "12-floor-2-hall-way-2"
         }
       ],
       "infoHotspots": []
@@ -1459,8 +1609,8 @@ var APP_DATA = {
           "target": "35-room-303-and-304-doors"
         },
         {
-          "yaw": -2.9769989677247892,
-          "pitch": -0.04484045017513516,
+          "yaw": -2.945955875097752,
+          "pitch": 0.08977678102078634,
           "rotation": 0,
           "target": "44-room-305"
         },
@@ -1469,6 +1619,18 @@ var APP_DATA = {
           "pitch": -0.050757077270006334,
           "rotation": 0,
           "target": "54-5th-floor-hallway-"
+        },
+        {
+          "yaw": 2.2134299796677865,
+          "pitch": 0.01923499936359363,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
+        },
+        {
+          "yaw": 1.9433594036460606,
+          "pitch": 0.2891168791118286,
+          "rotation": 0,
+          "target": "11-floor-2-hall-way"
         }
       ],
       "infoHotspots": []
@@ -1505,7 +1667,32 @@ var APP_DATA = {
         "pitch": 0.018441920377599175,
         "fov": 1.3365071038314758
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.028144684780365026,
+          "pitch": 0.2130250081336662,
+          "rotation": 0,
+          "target": "31-3rd-floor-hallway"
+        },
+        {
+          "yaw": -1.3864266922757835,
+          "pitch": 0.23868692823099558,
+          "rotation": 0,
+          "target": "33-301-302-doorsjpg"
+        },
+        {
+          "yaw": 2.6034315488698123,
+          "pitch": 0.0994372663171319,
+          "rotation": 0,
+          "target": "36-room-301"
+        },
+        {
+          "yaw": -1.6098321721970485,
+          "pitch": 0.03640349195192982,
+          "rotation": 0,
+          "target": "38-room-302"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1540,7 +1727,32 @@ var APP_DATA = {
         "pitch": -0.0011240736116882033,
         "fov": 1.3365071038314758
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -2.19399071606213,
+          "pitch": 0.5029527871525623,
+          "rotation": 0,
+          "target": "32-3rd-floor-hallway-1"
+        },
+        {
+          "yaw": 1.4312491291068214,
+          "pitch": 0.5876367122545325,
+          "rotation": 0,
+          "target": "32-3rd-floor-hallway-1"
+        },
+        {
+          "yaw": -1.116609043071037,
+          "pitch": 0.14468422999273045,
+          "rotation": 0,
+          "target": "36-room-301"
+        },
+        {
+          "yaw": 0.06603914317057225,
+          "pitch": 0.20840698031136107,
+          "rotation": 0,
+          "target": "38-room-302"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -1581,6 +1793,24 @@ var APP_DATA = {
           "pitch": 0.15196723640270093,
           "rotation": 0,
           "target": "32-3rd-floor-hallway-1"
+        },
+        {
+          "yaw": -2.1581214552645847,
+          "pitch": 0.011931608588543696,
+          "rotation": 0,
+          "target": "48-room-307"
+        },
+        {
+          "yaw": 3.013674775436346,
+          "pitch": 0.04890137535979733,
+          "rotation": 0,
+          "target": "46-room-306"
+        },
+        {
+          "yaw": 1.6146301255468352,
+          "pitch": 0.8997642813579372,
+          "rotation": 0,
+          "target": "31-3rd-floor-hallway"
         }
       ],
       "infoHotspots": []
@@ -1617,7 +1847,56 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.23766718365863504,
+          "pitch": 0.3214384173771947,
+          "rotation": 0,
+          "target": "31-3rd-floor-hallway"
+        },
+        {
+          "yaw": 1.6510657764081529,
+          "pitch": 0.28520504419592285,
+          "rotation": 0,
+          "target": "31-3rd-floor-hallway"
+        },
+        {
+          "yaw": -2.845897977316394,
+          "pitch": 0.19857123912268548,
+          "rotation": 0,
+          "target": "32-3rd-floor-hallway-1"
+        },
+        {
+          "yaw": -1.817848610879631,
+          "pitch": -0.05258325446666845,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
+        },
+        {
+          "yaw": -0.6865084870263747,
+          "pitch": -0.014044394532755078,
+          "rotation": 0,
+          "target": "40-room-303"
+        },
+        {
+          "yaw": 0.8567312388257804,
+          "pitch": 0.025728023466117023,
+          "rotation": 0,
+          "target": "42-room-304"
+        },
+        {
+          "yaw": 1.599094167991927,
+          "pitch": 0.006686911175883381,
+          "rotation": 0,
+          "target": "58-room-502"
+        },
+        {
+          "yaw": 1.774527620389744,
+          "pitch": 0.11554912967972975,
+          "rotation": 0,
+          "target": "55-506-507-hallway"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -2358,7 +2637,20 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.8835028417851678,
+          "pitch": 0.6996969198346008,
+          "rotation": 0,
+          "target": "53-503-504-hallway"
+        },
+        {
+          "yaw": 1.3477827223165644,
+          "pitch": 0.4070654361583337,
+          "rotation": 0,
+          "target": "53-503-504-hallway"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -2393,7 +2685,26 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.6794032469929441,
+          "pitch": 0.28734310500663085,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
+        },
+        {
+          "yaw": -0.07569512268982947,
+          "pitch": 0.13863099806679635,
+          "rotation": 0,
+          "target": "62-room-504"
+        },
+        {
+          "yaw": 2.8381786876118777,
+          "pitch": 0.14058608657125404,
+          "rotation": 0,
+          "target": "60-room-503"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -2448,13 +2759,20 @@ var APP_DATA = {
           "target": "52-501-502-hallway"
         },
         {
-          "yaw": -1.1864817181970384,
-          "pitch": 0.1563476130436552,
+          "yaw": -1.1955761797672046,
+          "pitch": 0.13586056487262255,
           "rotation": 0,
           "target": "55-506-507-hallway"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 2.364076816962048,
+          "pitch": 0.06051575208095983,
+          "title": "Elevator",
+          "text": "<br>"
+        }
+      ]
     },
     {
       "id": "55-506-507-hallway",
@@ -2500,6 +2818,18 @@ var APP_DATA = {
           "pitch": 0.006539841759614973,
           "rotation": 0,
           "target": "66-room-506"
+        },
+        {
+          "yaw": 2.8688720278779485,
+          "pitch": 0.19431955766210507,
+          "rotation": 0,
+          "target": "52-501-502-hallway"
+        },
+        {
+          "yaw": -3.1245187940015917,
+          "pitch": 0.2368521063042177,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
         }
       ],
       "infoHotspots": []
@@ -3172,6 +3502,12 @@ var APP_DATA = {
           "pitch": 0.2796705374641668,
           "rotation": 0,
           "target": "71-508-washroom"
+        },
+        {
+          "yaw": -1.6723284971308914,
+          "pitch": 0.009235546843530784,
+          "rotation": 0,
+          "target": "54-5th-floor-hallway-"
         }
       ],
       "infoHotspots": []
